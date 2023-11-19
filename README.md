@@ -1,16 +1,25 @@
 # IoT-mini-project 
 ### Group 33 - Muhammad Ahmad, Syed Ali, Alpo Kosunen
 
-## Setting up the environment
+## 1. Setting up the environment
 
 
-## RIOT OS ran in Iot device
+## 2. RIOT OS ran in Iot device
+
+### C Application and its function on IoT device
+
+### Makefile and configuration
 
 
-## Networking and data transfer to CSC cloud
+## 3. Networking and data transfer to CSC cloud
+
+### Flask
 
 
-## Cloud infrastructure
+## 4. Cloud infrastructure
+
+### Docker
 
 
-## Conclusion
+
+## 5. Conclusion
