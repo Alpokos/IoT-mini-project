@@ -3,6 +3,10 @@
 
 ## 1. Setting up the environment
 
+### FIT IoT lab
+
+### CSC Cloud instances
+
 
 ## 2. RIOT OS ran in Iot device
 
