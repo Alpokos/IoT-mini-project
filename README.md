@@ -8,13 +8,25 @@ After receiving the credentials for the FIT IoT-Lab we were able to create SSH k
 ### FIT IoT lab
 
 The work start with cloning RIOT git to our instance
-´´´
-some code
-´´´
+
+```
+git clone https://github.com/RIOT-OS/RIOT
+```
+
+After this we needed to rollback RIOT branch to be compatible with our desired board. In /RIOT path:
+```
+git checkout 2022.01
+```
+After this we need to set RIOT environmental variables correctly using
+```
+source /opt/riot.source
+```
+After this we are all done to begin the testing and developing with our own application.
 
 ### CSC Cloud instances
 
-blablabla blablablablablab
+For the data transfer to clound we created one instance in CSC Cloud. The instance is running Ubuntu 22.04 Server and hosts Docker where the webserver used for fetching data from the IoT device is done. The Ubuntu instance allocates one public IP used in the transfer and then it gets networked through internal link to Docker container.
+
 ## 2. RIOT OS ran in Iot device
 blablabla blablablablablab
 ### C Application and its function on IoT device
