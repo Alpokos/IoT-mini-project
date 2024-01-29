@@ -27,12 +27,20 @@ After this we are all done to begin the testing and developing with our own appl
 
 For the data transfer to clound we created one instance in CSC Cloud. The instance is running Ubuntu 22.04 Server and hosts Docker where the webserver used for fetching data from the IoT device is done. The Ubuntu instance allocates one public IP used in the transfer and then it gets networked through internal link to Docker container.
 
-## 2. RIOT OS ran in Iot device
-blablabla blablablablablab
+## 2. Components
+For this project we created temperature and pressure monitoring app run on RIOT and ran on M3 board.
+
 ### C Application and its function on IoT device
-blablabla blablablablablab
+The application is a simple while loop that reads temperature and pressure data using the lps modules introduced in the makefile. After they are read from the sensor, the application prints out the current values and sleeps for a while. 
+
+![image](https://github.com/Alpokos/IoT-mini-project/assets/144924470/e256ffaa-f12f-40e3-b515-fd753caddcef)
+
+
 ### Makefile and configuration
-blablabla blablablablablab
+The makefile consists of rows that specify the appplication name, Board used, RIOT install folder and the different modules that are needed in this app.
+
+![image](https://github.com/Alpokos/IoT-mini-project/assets/144924470/f052b62b-6592-4472-b971-41ba2cba870d)
+
 
 ## 3. Networking and data transfer to CSC cloud
 
